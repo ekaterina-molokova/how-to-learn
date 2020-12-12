@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-self: flex-start;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;

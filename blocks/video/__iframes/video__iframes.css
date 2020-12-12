@@ -1,4 +1,15 @@
 .video__iframes {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  bottom: -50px;
+  top: 50px;
+  overflow: visible;
+}
+
+/* предыдущее решение на всякий случай
+.video__iframes {
   margin: 50px auto 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,3 +17,4 @@
   height: 264px;
   overflow: visible;
 }
+*/

@@ -1,7 +1,6 @@
 .footer__column_content_copyrigth {
   flex-basis: 711px;
   display: flex;
-  position: relative;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
