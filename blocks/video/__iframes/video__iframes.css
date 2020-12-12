@@ -1,0 +1,8 @@
+.video__iframes {
+  margin: 50px auto 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 264px;
+  overflow: visible;
+}

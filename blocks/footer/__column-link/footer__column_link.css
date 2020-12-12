@@ -1,0 +1,12 @@
+.footer__column-link {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+  opacity: .4;
+  transition: opacity 2s ease;
+}

@@ -1,0 +1,11 @@
+.techniques {
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}

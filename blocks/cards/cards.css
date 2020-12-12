@@ -1,0 +1,12 @@
+.cards {
+  margin: 0;
+  padding: 0;
+  width: 920px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
