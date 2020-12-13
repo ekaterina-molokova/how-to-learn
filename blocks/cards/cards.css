@@ -6,6 +6,4 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-direction: row;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
