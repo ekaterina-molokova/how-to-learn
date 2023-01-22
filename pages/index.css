@@ -72,3 +72,7 @@
 @import url("../blocks/footer/__column-link/footer__column_link.css");
 @import url("../blocks/footer/__social-link/footer__social-link.css");
 @import url("../blocks/footer/__social-icon/footer__social-icon.css");
+
+.accent {
+  background-color: rgba(47, 128, 237, 0.2);
+}
