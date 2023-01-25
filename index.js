@@ -30,38 +30,38 @@ let scrollY = window.pageYOffset;
 document.addEventListener('scroll', function() {
   scrollY = window.pageYOffset;
   console.log(scrollY)
-  if (scrollY <= descriptionOffset + 200) {
+  if (scrollY <= descriptionOffset + 100) {
     description.classList.add('accent');
     techniques.classList.remove('accent');
-  } else if (scrollY <= techniquesOffset + 200) {
+  } else if (scrollY <= techniquesOffset + 100) {
     techniques.classList.add('accent');
     description.classList.remove('accent');
     video.classList.remove('accent');
-  } else if (scrollY <= videoOffset + 200) {
+  } else if (scrollY <= videoOffset + 100) {
     video.classList.add('accent');
     description.classList.remove('accent');
     oakley.classList.remove('accent');
-  } else if (scrollY <= oakleyOffset + 200) {
+  } else if (scrollY <= oakleyOffset + 100) {
     oakley.classList.add('accent');
     video.classList.remove('accent');
     feynman.classList.remove('accent');
-  } else if (scrollY <= feynmanOffset + 200) {
+  } else if (scrollY <= feynmanOffset + 100) {
     feynman.classList.add('accent');
     oakley.classList.remove('accent');
     digits.classList.remove('accent');
-  } else if (scrollY <= digitsOffset + 200) {
+  } else if (scrollY <= digitsOffset + 100) {
     digits.classList.add('accent');
     feynman.classList.remove('accent');
     khan.classList.remove('accent');
-  } else if (scrollY <= khanOffset + 200) {
+  } else if (scrollY <= khanOffset + 100) {
     khan.classList.add('accent');
     digits.classList.remove('accent');
     kaufman.classList.remove('accent');
-  } else if (scrollY <= kaufmanOffset + 200) {
+  } else if (scrollY <= kaufmanOffset + 100) {
     kaufman.classList.add('accent');
     digits.classList.remove('accent');
     resources.classList.remove('accent');
-  } else if (scrollY <= resourcesOffset + 200) {
+  } else if (scrollY <= resourcesOffset + 100) {
     resources.classList.add('accent');
     kaufman.classList.remove('accent');
   } else {

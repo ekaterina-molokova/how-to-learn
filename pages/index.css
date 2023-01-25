@@ -73,6 +73,31 @@
 @import url("../blocks/footer/__social-link/footer__social-link.css");
 @import url("../blocks/footer/__social-icon/footer__social-icon.css");
 
+@keyframes color_changing {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: rgba(47, 128, 237, 0.2)
+  }
+}
+
 .accent {
-  background-color: rgba(47, 128, 237, 0.2);
+  /* background-color: rgba(47, 128, 237, 0.2); */
+  /* transition: background-color 1s ease-in; */
+  /* animation: color_changing 1s ease-in forwards running; */
+  background-image: linear-gradient(white, rgba(47, 128, 237, 0.2));
+  box-shadow: 0px 0px 20px #2f80ed;
+}
+
+h1:hover, h2:hover {
+  text-shadow: 0px 0px 10px #2f80ed;
+}
+
+img {
+  transition: transform 1s ease-in;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
